@@ -16,27 +16,29 @@
           />
         </div>
         <div class="col-sm-7 col-md-6 col-xl-6 mt-sm-5">
-          <form>
+          <form action="/login" method="post">
             <!-- Email input -->
             <div class="form-outline mb-4">
               <input
                 type="email"
-                id="form1Example13"
+                name="email"
+                id="email"
                 class="form-control form-control-lg"
                 required
               />
-              <label class="form-label" for="form1Example13">Email address</label>
+              <label class="form-label" for="email">Email address</label>
             </div>
 
             <!-- Password input -->
             <div class="form-outline mb-4">
               <input
                 type="password"
-                id="form1Example23"
+                name="password"
+                id="password"
                 class="form-control form-control-lg"
                 required
               />
-              <label class="form-label" for="form1Example23">Password</label>
+              <label class="form-label" for="password">Password</label>
             </div>
 
             <div class="d-flex justify-content-around align-items-center mb-4">
