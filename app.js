@@ -1,6 +1,7 @@
 const express = require("express");
 const cookieParser = require("cookie-parser");
 const { engine } = require("express-handlebars");
+require("dotenv").config();
 
 const errorHandler = require("./middleware/errorHandler");
 const indexRouter = require("./routes/index");
