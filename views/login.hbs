@@ -57,6 +57,9 @@
               </div>
               <a href="#!">Forgot password?</a>
             </div>
+            {{#if status}}{{else}}
+              <p class="text-danger text-center">{{err}}</p>
+            {{/if}}
 
             <!-- Submit button -->
             <button type="submit" class="btn btn-primary btn-lg btn-block">Sign
